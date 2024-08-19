@@ -11,7 +11,7 @@ public class Inventory extends ProductMap {
         }
     }
 
-    private Boolean isProductInInventory(Product product) {
+    private boolean isProductInInventory(Product product) {
         return products.containsKey(product.getId());
     }
 }

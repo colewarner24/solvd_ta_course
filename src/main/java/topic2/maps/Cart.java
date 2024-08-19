@@ -24,7 +24,7 @@ public class Cart extends ProductMap {
         products.clear();
     }
 
-    public Boolean isEmpty(){
+    public boolean isEmpty(){
         return products.isEmpty();
     }
 

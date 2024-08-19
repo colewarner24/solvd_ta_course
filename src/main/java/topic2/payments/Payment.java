@@ -17,12 +17,12 @@ public class Payment {
 
     public Payment(int id) {
         this.id = id;
-        this.date = new SimpleDateFormat("yyyy/MM/dd HH:mm").format(Calendar.getInstance().getTime());;
+        this.date = new SimpleDateFormat("yyyy/MM/dd HH:mm").format(Calendar.getInstance().getTime());
         this.amount = 0;
         this.status = Status.NOT_PAID;
     }
 
-    public Boolean checkout(Customer customer) {
+    public boolean checkout(Customer customer) {
         this.status = Status.PENDING;
         Cart cart = customer.getCart();
         if (cart.isEmpty()) {
@@ -31,7 +31,7 @@ public class Payment {
         Shipping shipping = new Shipping(customer.getAddress(), customer.getAddress());
 
         double total = cart.getTotalPrice() + shipping.getShippingCost(cart.getTotalPrice());
-        if (!ProcessPayment(total)) {
+        if (!processPayment(total)) {
             return false;
         }
         if (!shipping.ship(customer)) {
@@ -44,13 +44,13 @@ public class Payment {
         return true;
     }
 
-    public Boolean ProcessPayment(double total) {
+    public boolean processPayment(double total) {
         // Send payment data to a payment gateway
         System.out.println("Processing payment of " + total + " on " + date);
         return true;
     }
 
-    public Boolean isPaid(){
+    public boolean isPaid(){
         return status == Status.PAID;
     }
 

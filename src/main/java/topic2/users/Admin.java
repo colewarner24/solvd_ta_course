@@ -9,7 +9,7 @@ public class Admin extends User {
     }
 
     public boolean verifyCredentials() {
-        return credentials.equals("admin");
+        return "admin".equals(credentials);
     }
 
 }

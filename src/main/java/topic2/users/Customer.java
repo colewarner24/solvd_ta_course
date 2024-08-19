@@ -19,10 +19,16 @@ public class Customer extends User {
     }
 
     public void addToCart(Product product) {
+        if (product == null) {
+            return;
+        }
         cart.addProduct(product);
     }
 
     public void removeFromCart(Product product) {
+        if (product == null) {
+            return;
+        }
         cart.removeProduct(product);
     }
 

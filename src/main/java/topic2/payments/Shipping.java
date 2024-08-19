@@ -8,7 +8,7 @@ public class Shipping {
 
     private String name;
     private String address;
-    private static final double SHIPPING_TAX = .05;
+    private static final double SHIPPING_TAX = 0.05;
 
     public Shipping(String name, String address) {
         this.name = name;
@@ -19,7 +19,7 @@ public class Shipping {
         return total * SHIPPING_TAX;
     }
 
-    public Boolean ship(Customer customer) {
+    public boolean ship(Customer customer) {
         Cart cart = customer.getCart();
         if (cart.isEmpty()) {
             return false;

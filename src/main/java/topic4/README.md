@@ -1,3 +1,12 @@
+# Topic 4 Notes
+internetShop classes now is located in this [folder](https://github.com/colewarner24/solvd_ta_course/tree/main/src/main/java/internetShop)
+
+[log4j](https://github.com/colewarner24/solvd_ta_course/blob/main/src/main/resources/log4j2.xml) xml file 
+
+[output of log file](https://github.com/colewarner24/solvd_ta_course/blob/main/logs/app.log)
+
+
+
 # Topic 4 Questions
 # 1. What is an exception’s hierarchy?
 All exceptions inherit the Throwable class.

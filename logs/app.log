@@ -1,0 +1,6 @@
+2024-27-26 22:27:42.693 [main] INFO  topic4.Main - Starting logger
+2024-27-26 22:27:42.711 [main] ERROR topic4.Main - Invalid product name
+2024-27-26 22:27:42.765 [main] INFO  topic4.Main - Sorted product list on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-27-26 22:27:42.769 [main] INFO  topic4.Main - Sorted product list on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-27-26 22:27:42.773 [main] ERROR topic4.Main - Invalid user id
+2024-27-26 22:27:42.774 [main] INFO  topic4.Main - Closing logger

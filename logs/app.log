@@ -4,3 +4,199 @@
 2024-27-26 22:27:42.769 [main] INFO  topic4.Main - Sorted product list on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
 2024-27-26 22:27:42.773 [main] ERROR topic4.Main - Invalid user id
 2024-27-26 22:27:42.774 [main] INFO  topic4.Main - Closing logger
+2024-03-30 10:03:03.100 [main] INFO  topic4.Main - Starting logger
+2024-03-30 10:03:03.104 [main] ERROR topic4.Main - Invalid product name
+2024-03-30 10:03:03.126 [main] INFO  topic4.Main - Sorted product list on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-03-30 10:03:03.128 [main] INFO  topic4.Main - Sorted product list on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-03-30 10:03:03.130 [main] ERROR topic4.Main - Invalid user id
+2024-03-30 10:03:03.130 [main] INFO  topic4.Main - Closing logger
+2024-06-30 10:06:36.721 [main] INFO  topic4.Main - Starting logger
+2024-06-30 10:06:36.725 [main] ERROR topic4.Main - Invalid product name
+2024-06-30 10:06:36.747 [main] INFO  topic4.Main - Sorted product list on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-06-30 10:06:36.748 [main] INFO  topic4.Main - Sorted product list on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-06-30 10:06:36.749 [main] ERROR topic4.Main - Invalid user id
+2024-06-30 10:06:36.750 [main] INFO  topic4.Main - Closing logger
+2024-07-30 10:07:12.328 [main] INFO  topic4.Main - Starting logger
+2024-07-30 10:07:12.333 [main] ERROR topic4.Main - Invalid product name
+2024-07-30 10:07:12.352 [main] INFO  topic4.Main - Sorted product list on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-07-30 10:07:12.353 [main] INFO  topic4.Main - Sorted product list on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-07-30 10:07:12.355 [main] ERROR topic4.Main - Invalid user id
+2024-07-30 10:07:12.355 [main] INFO  topic4.Main - Closing logger
+2024-08-30 10:08:05.737 [main] INFO  topic4.Main - Starting logger
+2024-08-30 10:08:05.742 [main] ERROR topic4.Main - Invalid product name
+2024-08-30 10:08:05.760 [main] INFO  topic4.Main - Sorted product list on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-08-30 10:08:05.762 [main] INFO  topic4.Main - Sorted product list on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-08-30 10:08:05.763 [main] ERROR topic4.Main - Invalid user id
+2024-08-30 10:08:05.763 [main] INFO  topic4.Main - Closing logger
+2024-08-30 10:08:38.303 [main] INFO  topic5.Main - Starting logger
+2024-08-30 10:08:38.330 [main] INFO  topic5.Main - Sorted product list on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-08-30 10:08:38.334 [main] INFO  topic5.Main - Sorted product list on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-08-30 10:08:38.335 [main] ERROR topic5.Main - Invalid user id
+2024-08-30 10:08:38.335 [main] INFO  topic5.Main - Closing logger
+2024-08-30 10:08:57.569 [main] INFO  topic5.Main - Starting logger
+2024-08-30 10:08:57.592 [main] INFO  topic5.Main - Sorted product list on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-08-30 10:08:57.592 [main] INFO  topic5.Main - Sorted product list on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-08-30 10:08:57.593 [main] INFO  topic5.Main - Customer cart: {}
+2024-08-30 10:08:57.600 [main] INFO  topic5.Main - Payment successful
+2024-08-30 10:08:57.602 [main] DEBUG topic5.Main - Payment 1: amount=15.225, date=2024/08/30 10:08 
+
+2024-08-30 10:08:57.602 [main] ERROR topic5.Main - Product already in inventory with id:  4
+2024-08-30 10:08:57.603 [main] FATAL topic5.Main - internetShop.exceptions.ProductInInventoryException: Product already in inventory with id:  4
+2024-08-30 10:08:57.603 [main] INFO  topic5.Main - Closing logger
+2024-22-30 10:22:02.094 [main] INFO  topic5.Main - Starting logger
+2024-22-30 10:22:02.117 [main] INFO  topic5.Main - Sorted product list on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-22-30 10:22:02.119 [main] INFO  topic5.Main - Sorted product list on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-22-30 10:22:02.120 [main] INFO  topic5.Main - Customer cart: {}
+2024-22-30 10:22:02.126 [main] INFO  topic5.Main - Payment successful
+2024-22-30 10:22:02.128 [main] DEBUG topic5.Main - Payment 1: amount=15.225, date=2024/08/30 10:22 
+
+2024-22-30 10:22:02.129 [main] ERROR topic5.Main - Product already in inventory with id:  4
+2024-22-30 10:22:02.129 [main] FATAL topic5.Main - internetShop.exceptions.ProductInInventoryException: Product already in inventory with id:  4
+2024-22-30 10:22:02.129 [main] INFO  topic5.Main - Closing logger
+2024-39-30 11:39:59.205 [main] INFO  topic5.Main - Starting logger
+2024-39-30 11:39:59.242 [main] INFO  topic5.Main - Sorted product list on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-39-30 11:39:59.243 [main] INFO  topic5.Main - Sorted product list on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-39-30 11:39:59.244 [main] INFO  topic5.Main - Customer cart: {}
+2024-39-30 11:39:59.249 [main] INFO  topic5.Main - Payment successful
+2024-39-30 11:39:59.251 [main] DEBUG topic5.Main - Payment 1: amount=15.225, date=2024/08/30 11:39 
+
+2024-39-30 11:39:59.251 [main] ERROR topic5.Main - Product already in inventory with id:  4
+2024-39-30 11:39:59.251 [main] FATAL topic5.Main - internetShop.exceptions.ProductInInventoryException: Product already in inventory with id:  4
+2024-39-30 11:39:59.252 [main] INFO  topic5.Main - Closing logger
+2024-52-30 11:52:53.906 [main] INFO  topic5.Main - Starting logger
+2024-52-30 11:52:53.928 [main] INFO  topic5.Main - Sorted product list on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-52-30 11:52:53.929 [main] INFO  topic5.Main - Sorted product list on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-52-30 11:52:53.930 [main] INFO  topic5.Main - Customer cart: {}
+2024-52-30 11:52:53.936 [main] INFO  topic5.Main - Payment successful
+2024-52-30 11:52:53.939 [main] DEBUG topic5.Main - Payment 1: amount=15.225, date=2024/08/30 11:52 
+
+2024-52-30 11:52:53.939 [main] ERROR topic5.Main - Product already in inventory with id: 4
+2024-52-30 11:52:53.939 [main] FATAL topic5.Main - internetShop.exceptions.ProductInInventoryException: Product already in inventory with id: 4
+2024-52-30 11:52:53.939 [main] INFO  topic5.Main - Closing logger
+2024-53-30 11:53:11.817 [main] INFO  topic5.Main - Starting logger
+2024-53-30 11:53:11.841 [main] INFO  topic5.Main - Sorted product list on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-53-30 11:53:11.842 [main] INFO  topic5.Main - Sorted product list on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-53-30 11:53:11.843 [main] INFO  topic5.Main - Customer cart: {}
+2024-53-30 11:53:11.849 [main] INFO  topic5.Main - Payment successful
+2024-53-30 11:53:11.851 [main] DEBUG topic5.Main - Payment 1: amount=15.225, date=2024/08/30 11:53 
+
+2024-53-30 11:53:11.851 [main] ERROR topic5.Main - Product already in inventory with id: 4
+2024-53-30 11:53:11.851 [main] FATAL topic5.Main - internetShop.exceptions.ProductInInventoryException: Product already in inventory with id: 4
+2024-53-30 11:53:11.851 [main] INFO  topic5.Main - Closing logger
+2024-00-03 11:00:02.522 [main] INFO  topic5.Main - Starting logger
+2024-00-03 11:00:02.556 [main] INFO  topic5.Main - Sorted product list on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-00-03 11:00:02.558 [main] INFO  topic5.Main - Sorted product list on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-00-03 11:00:02.559 [main] INFO  topic5.Main - Customer cart: {}
+2024-00-03 11:00:02.570 [main] INFO  topic5.Main - Payment successful
+2024-00-03 11:00:02.575 [main] DEBUG topic5.Main - Payment 1: amount=15.225, date=2024/09/03 11:00 
+
+2024-00-03 11:00:02.576 [main] ERROR topic5.Main - Product already in inventory with id: 4
+2024-00-03 11:00:02.577 [main] INFO  topic5.Main - Closing logger
+2024-01-03 11:01:02.307 [main] INFO  topic5.Main - Starting logger
+2024-01-03 11:01:02.331 [main] INFO  topic5.Main - Sorted product list on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-01-03 11:01:02.333 [main] INFO  topic5.Main - Sorted product list on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-01-03 11:01:02.334 [main] INFO  topic5.Main - Customer cart: {}
+2024-01-03 11:01:02.339 [main] INFO  topic5.Main - Payment successful
+2024-01-03 11:01:02.343 [main] DEBUG topic5.Main - Payment 1: amount=15.225, date=2024/09/03 11:01 
+
+2024-01-03 11:01:02.343 [main] ERROR topic5.Main - Product already in inventory with id: 4
+2024-01-03 11:01:02.343 [main] INFO  topic5.Main - Closing logger
+2024-03-03 11:03:24.391 [main] INFO  topic5.Main - Starting logger
+2024-03-03 11:03:24.416 [main] INFO  topic5.Main - Sorted product list on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-03-03 11:03:24.417 [main] INFO  topic5.Main - Sorted product list on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-03-03 11:03:24.419 [main] INFO  topic5.Main - Customer cart: {}
+2024-03-03 11:03:24.424 [main] INFO  topic5.Main - Payment successful
+2024-03-03 11:03:24.427 [main] DEBUG topic5.Main - Payment 1: amount=46.725, date=2024/09/03 11:03 
+
+2024-03-03 11:03:24.427 [main] ERROR topic5.Main - Product already in inventory with id: 4
+2024-03-03 11:03:24.428 [main] INFO  topic5.Main - Closing logger
+2024-06-03 11:06:28.351 [main] INFO  topic5.Main - Starting logger
+2024-06-03 11:06:28.377 [main] INFO  topic5.Main - Sorted product list on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-06-03 11:06:28.379 [main] INFO  topic5.Main - Sorted product list on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-06-03 11:06:28.380 [main] INFO  topic5.Main - Customer cart: {}
+2024-06-03 11:06:28.386 [main] INFO  topic5.Main - Payment successful
+2024-06-03 11:06:28.390 [main] DEBUG topic5.Main - Payment 1: amount=46.725, date=2024/09/03 11:06 
+
+2024-06-03 11:06:28.391 [main] ERROR topic5.Main - Product already in inventory with id: 4
+2024-06-03 11:06:28.391 [main] INFO  topic5.Main - Closing logger
+2024-07-03 11:07:07.415 [main] INFO  topic5.Main - Starting logger
+2024-07-03 11:07:07.439 [main] INFO  topic5.Main - Sorted product list on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-07-03 11:07:07.440 [main] INFO  topic5.Main - Sorted product list on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-07-03 11:07:07.441 [main] INFO  topic5.Main - Customer cart: {}
+2024-07-03 11:07:07.447 [main] INFO  topic5.Main - Payment successful
+2024-07-03 11:07:07.450 [main] DEBUG topic5.Main - Payment 1: amount=46.725, date=2024/09/03 11:07 
+
+2024-07-03 11:07:07.450 [main] ERROR topic5.Main - Product already in inventory with id: 4
+2024-07-03 11:07:07.451 [main] INFO  topic5.Main - Closing logger
+2024-11-03 11:11:15.584 [main] INFO  topic5.Main - Starting logger
+2024-11-03 11:11:15.607 [main] INFO  topic5.Main - Sorted product list on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-11-03 11:11:15.609 [main] INFO  topic5.Main - Sorted product list on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-11-03 11:11:15.610 [main] INFO  topic5.Main - Customer cart: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-11-03 11:11:15.616 [main] INFO  topic5.Main - Payment successful
+2024-11-03 11:11:15.618 [main] DEBUG topic5.Main - Payment 1: amount=46.725, date=2024/09/03 11:11 
+
+2024-11-03 11:11:15.619 [main] ERROR topic5.Main - Product already in inventory with id: 4
+2024-11-03 11:11:15.619 [main] INFO  topic5.Main - Closing logger
+2024-12-03 11:12:32.475 [main] INFO  topic5.Main - Starting logger
+2024-12-03 11:12:32.500 [main] INFO  topic5.Main - Sorted product list on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-12-03 11:12:32.502 [main] INFO  topic5.Main - Sorted product list on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-12-03 11:12:32.503 [main] INFO  topic5.Main - Customer cart: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-12-03 11:12:32.509 [main] INFO  topic5.Main - Payment successful
+2024-12-03 11:12:32.511 [main] DEBUG topic5.Main - Payment 1: amount=46.725, date=2024/09/03 11:12 
+
+2024-12-03 11:12:32.512 [main] ERROR topic5.Main - Product already in inventory with id: 4
+2024-12-03 11:12:32.512 [main] INFO  topic5.Main - Closing logger
+2024-13-03 11:13:03.840 [main] INFO  topic5.Main - Starting logger
+2024-13-03 11:13:03.863 [main] INFO  topic5.Main - Sorted product list on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-13-03 11:13:03.864 [main] INFO  topic5.Main - Sorted product list on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-13-03 11:13:03.866 [main] INFO  topic5.Main - Customer cart: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-13-03 11:13:03.871 [main] FATAL topic5.Main - null
+2024-13-03 11:13:03.871 [main] INFO  topic5.Main - Closing logger
+2024-13-03 11:13:35.076 [main] INFO  topic5.Main - Starting logger
+2024-13-03 11:13:35.100 [main] INFO  topic5.Main - Sorted product list on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-13-03 11:13:35.101 [main] INFO  topic5.Main - Sorted product list on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-13-03 11:13:35.103 [main] INFO  topic5.Main - Customer cart: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-13-03 11:13:35.109 [main] INFO  topic5.Main - Payment successful
+2024-13-03 11:13:35.111 [main] DEBUG topic5.Main - Payment 1: amount=46.725, date=2024/09/03 11:13 
+
+2024-13-03 11:13:35.112 [main] INFO  topic5.Main - Payment successful
+2024-13-03 11:13:35.112 [main] DEBUG topic5.Main - Payment 2: amount=31.5, date=2024/09/03 11:13 
+
+2024-13-03 11:13:35.112 [main] INFO  topic5.Main - Closing logger
+2024-13-03 11:13:51.580 [main] INFO  topic5.Main - Starting logger
+2024-13-03 11:13:51.603 [main] INFO  topic5.Main - Sorted product list on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-13-03 11:13:51.605 [main] INFO  topic5.Main - Sorted product list on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-13-03 11:13:51.606 [main] INFO  topic5.Main - Customer cart: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-13-03 11:13:51.612 [main] FATAL topic5.Main - null
+2024-13-03 11:13:51.612 [main] INFO  topic5.Main - Closing logger
+2024-17-03 11:17:04.523 [main] INFO  topic5.Main - Starting logger
+2024-17-03 11:17:04.548 [main] INFO  topic5.Main - Sorted product list on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-17-03 11:17:04.550 [main] INFO  topic5.Main - Sorted product list on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-17-03 11:17:04.551 [main] INFO  topic5.Main - Customer cart: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-17-03 11:17:04.557 [main] INFO  topic5.Main - Payment successful
+2024-17-03 11:17:04.560 [main] DEBUG topic5.Main - Payment 1: amount=46.725, date=2024/09/03 11:17 
+
+2024-17-03 11:17:04.560 [main] ERROR topic5.Main - Product already in inventory with id: 4
+2024-17-03 11:17:04.561 [main] INFO  topic5.Main - Closing logger
+2024-17-03 11:17:11.799 [main] INFO  topic5.Main - Starting logger
+2024-17-03 11:17:11.822 [main] INFO  topic5.Main - Sorted product list on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-17-03 11:17:11.823 [main] INFO  topic5.Main - Sorted product list on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-17-03 11:17:11.825 [main] INFO  topic5.Main - Customer cart: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-17-03 11:17:11.830 [main] INFO  topic5.Main - Payment successful
+2024-17-03 11:17:11.833 [main] DEBUG topic5.Main - Payment 1: amount=46.725, date=2024/09/03 11:17 
+
+2024-17-03 11:17:11.834 [main] INFO  topic5.Main - Payment successful
+2024-17-03 11:17:11.834 [main] DEBUG topic5.Main - Payment 2: amount=31.5, date=2024/09/03 11:17 
+
+2024-17-03 11:17:11.834 [main] INFO  topic5.Main - Closing logger
+2024-20-03 11:20:48.893 [main] INFO  topic5.Main - Starting logger
+2024-20-03 11:20:48.916 [main] INFO  topic5.Main - Sorted product vector on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-20-03 11:20:48.918 [main] INFO  topic5.Main - Sorted product priority queue on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN]
+2024-20-03 11:20:48.920 [main] INFO  topic5.Main - Customer cart: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-20-03 11:20:48.925 [main] INFO  topic5.Main - Payment successful
+2024-20-03 11:20:48.928 [main] DEBUG topic5.Main - Payment 1: amount=46.725, date=2024/09/03 11:20 
+
+2024-20-03 11:20:48.929 [main] INFO  topic5.Main - Payment successful
+2024-20-03 11:20:48.929 [main] DEBUG topic5.Main - Payment 2: amount=31.5, date=2024/09/03 11:20 
+
+2024-20-03 11:20:48.929 [main] INFO  topic5.Main - Closing logger

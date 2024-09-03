@@ -1,6 +1,6 @@
 package internetShop.payments;
 
-import internetShop.maps.Cart;
+import internetShop.collections.Cart;
 import internetShop.products.Product;
 import internetShop.users.Customer;
 

@@ -1,6 +1,8 @@
-package internetShop.maps;
+package internetShop.collections;
 
 import internetShop.products.Product;
+
+import java.util.ArrayList;
 
 public class Cart extends ProductMap {
 

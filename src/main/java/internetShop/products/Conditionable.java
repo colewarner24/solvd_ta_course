@@ -13,7 +13,7 @@ public interface Conditionable {
         };
     }
 
-    default int compareCondition(Conditionable conditionable) {
+    default int compare(Conditionable conditionable) {
         return Integer.compare(conditionValue(getCondition()), conditionValue(conditionable.getCondition()));
     }
 

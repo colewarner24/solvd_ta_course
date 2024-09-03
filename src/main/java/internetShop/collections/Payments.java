@@ -1,33 +1,33 @@
-package internetShop.maps;
+package internetShop.collections;
 
 import internetShop.exceptions.PaymentNotPaidException;
 import internetShop.payments.Payment;
 
-import java.util.HashMap;
+import java.util.LinkedList;
 
-public class PaymentMap {
-    protected HashMap<Integer, Payment> payments;
+public class Payments {
+    protected MyLinkedList<Payment> payments;
 
-    public PaymentMap() {
-        payments = new HashMap<>();
+    public Payments() {
+        payments = new MyLinkedList<>();
     }
 
-    public HashMap<Integer, Payment> getProducts() {
+    public MyLinkedList<Payment> getProducts() {
         return payments;
     }
 
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        for (Payment payments : payments.values()) {
-            sb.append(payments.toString());
+        for (Payment payment : payments){
+            sb.append(payment.toString());
         }
         return sb.toString();
     }
 
     public void addPayment(Payment payment) throws PaymentNotPaidException {
         if (payment.isPaid()) {
-            payments.put(payment.getId(), payment);
+            payments.add(payment);
         }
         else{
             throw new PaymentNotPaidException("Payment " + payment.getId() + " not paid");

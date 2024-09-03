@@ -1,6 +1,9 @@
 package internetShop.payments;
+import internetShop.collections.Inventory;
 import internetShop.exceptions.EmptyCartException;
-import internetShop.maps.Cart;
+import internetShop.collections.Cart;
+import internetShop.exceptions.ProductInInventoryException;
+import internetShop.products.Product;
 import internetShop.users.Customer;
 import internetShop.Identifiable;
 import java.text.SimpleDateFormat;
@@ -21,7 +24,7 @@ public class Payment implements Identifiable, Processable {
     }
 
     //enforce subclasses have to use this method
-    public final boolean checkout(Customer customer) throws EmptyCartException {
+    public final boolean checkout(Customer customer, Inventory inventory) throws EmptyCartException, ProductInInventoryException {
         this.status = Status.PENDING;
         Cart cart = customer.getCart();
         if (cart.isEmpty()) {
@@ -35,6 +38,9 @@ public class Payment implements Identifiable, Processable {
         }
         if (!shipping.ship(customer)) {
             return false;
+        }
+        for (Product product : cart.getProducts().values()) {
+            inventory.removeProduct(product);
         }
         customer.clearCart();
         this.amount = total;

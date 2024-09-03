@@ -1,9 +1,11 @@
-package internetShop.maps;
+package internetShop.collections;
 
 import internetShop.products.Product;
+
+import java.util.ArrayList;
 import java.util.HashMap;
 
-public abstract class ProductMap {
+public abstract class ProductMap extends HashMap<Integer, Product> {
     protected HashMap<Integer, Product> products;
 
     public ProductMap() {
@@ -12,6 +14,10 @@ public abstract class ProductMap {
 
     public HashMap<Integer, Product> getProducts() {
         return products;
+    }
+
+    public ArrayList<Product> getProductsAsList() {
+        return new ArrayList<>(products.values());
     }
 
     public HashMap<Integer, Product> getProductMap() {

@@ -1,7 +1,7 @@
 package internetShop.users;
 
 import internetShop.exceptions.InvalidUserException;
-import internetShop.maps.Cart;
+import internetShop.collections.Cart;
 import internetShop.products.Product;
 
 public class Customer extends User {

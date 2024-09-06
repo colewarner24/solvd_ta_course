@@ -1,5 +1,17 @@
+# Topic 5 Notes
+
+collections added 
+
+- hashmap with productMap, cart, and inventory
+
+- list implemented with custom linked list implementation
+
+- arraylist with getProductsAsList() in productMap
+
+- vector and priority queue for sorting functionality in inventory
+
 # 1. What is generic?
-A generic type is a generic class or interface that is parameterized over types
+A generic type is a generic class or interface that is parameterized over types.
 # 2. How we can extend generic class, interface?
 We can extend generic class, interface by specifying the type parameter in the class or interface declaration.
 # 3. What is collection hierarchy?

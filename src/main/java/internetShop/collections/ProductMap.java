@@ -20,10 +20,6 @@ public abstract class ProductMap extends HashMap<Integer, Product> {
         return new ArrayList<>(products.values());
     }
 
-    public HashMap<Integer, Product> getProductMap() {
-        return products;
-    }
-
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();

@@ -200,3 +200,102 @@
 2024-20-03 11:20:48.929 [main] DEBUG topic5.Main - Payment 2: amount=31.5, date=2024/09/03 11:20 
 
 2024-20-03 11:20:48.929 [main] INFO  topic5.Main - Closing logger
+2024-44-05 10:44:15.287 [main] INFO  topic5.Main - Starting logger
+2024-44-05 10:44:15.329 [main] INFO  topic5.Main - Sorted product vector on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-44-05 10:44:15.333 [main] INFO  topic5.Main - Sorted product priority queue on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN]
+2024-44-05 10:44:15.336 [main] INFO  topic5.Main - Customer cart: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-44-05 10:44:15.355 [main] INFO  topic5.Main - Payment successful
+2024-44-05 10:44:15.363 [main] DEBUG topic5.Main - Payment 1: amount=46.725, date=2024/09/05 10:44 
+
+2024-44-05 10:44:15.365 [main] INFO  topic5.Main - Payment successful
+2024-44-05 10:44:15.366 [main] DEBUG topic5.Main - Payment 2: amount=31.5, date=2024/09/05 10:44 
+
+2024-44-05 10:44:15.366 [main] INFO  topic5.Main - Closing logger
+2024-50-05 10:50:40.586 [main] INFO  topic5.Main - Starting logger
+2024-50-05 10:50:40.609 [main] INFO  topic5.Main - Sorted product vector on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-50-05 10:50:40.611 [main] INFO  topic5.Main - Sorted product priority queue on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN]
+2024-50-05 10:50:40.613 [main] INFO  topic5.Main - Customer cart: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-50-05 10:50:40.617 [main] INFO  topic5.Main - Payment successful
+2024-50-05 10:50:40.620 [main] DEBUG topic5.Main - Payment 1: amount=46.725, date=2024/09/05 10:50 
+
+2024-50-05 10:50:40.621 [main] INFO  topic5.Main - Payment successful
+2024-50-05 10:50:40.621 [main] DEBUG topic5.Main - Payment 2: amount=31.5, date=2024/09/05 10:50 
+
+2024-50-05 10:50:40.621 [main] INFO  topic5.Main - Closing logger
+2024-19-05 13:19:54.407 [main] INFO  topic5.Main - Starting logger
+2024-19-05 13:19:54.492 [main] INFO  topic5.Main - Sorted product vector on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-19-05 13:19:54.498 [main] INFO  topic5.Main - Sorted product priority queue on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN]
+2024-19-05 13:19:54.503 [main] INFO  topic5.Main - Customer cart: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-19-05 13:19:54.522 [main] INFO  topic5.Main - Payment successful
+2024-19-05 13:19:54.535 [main] DEBUG topic5.Main - Payment 1: amount=46.725, date=2024/09/05 13:19 
+
+2024-19-05 13:19:54.538 [main] INFO  topic5.Main - Payment successful
+2024-19-05 13:19:54.539 [main] DEBUG topic5.Main - Payment 2: amount=31.5, date=2024/09/05 13:19 
+
+2024-19-05 13:19:54.539 [main] INFO  topic5.Main - Closing logger
+2024-23-05 13:23:31.485 [main] INFO  topic5.Main - Starting logger
+2024-23-05 13:23:31.516 [main] INFO  topic5.Main - Sorted product vector on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-23-05 13:23:31.518 [main] INFO  topic5.Main - Sorted product priority queue on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN]
+2024-23-05 13:23:31.519 [main] INFO  topic5.Main - Customer cart: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-23-05 13:23:31.526 [main] INFO  topic5.Main - Payment successful
+2024-23-05 13:23:31.528 [main] DEBUG topic5.Main - Payment 1: amount=46.725, date=2024/09/05 13:23 
+
+2024-23-05 13:23:31.529 [main] INFO  topic5.Main - Payment successful
+2024-23-05 13:23:31.529 [main] DEBUG topic5.Main - Payment 2: amount=31.5, date=2024/09/05 13:23 
+
+2024-23-05 13:23:31.529 [main] INFO  topic5.Main - Closing logger
+2024-26-05 13:26:35.763 [main] INFO  topic5.Main - Starting logger
+2024-26-05 13:26:35.791 [main] INFO  topic5.Main - Sorted product vector on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-26-05 13:26:35.792 [main] INFO  topic5.Main - Sorted product priority queue on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN]
+2024-26-05 13:26:35.793 [main] INFO  topic5.Main - Customer cart: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-26-05 13:26:35.799 [main] INFO  topic5.Main - Payment successful
+2024-26-05 13:26:35.802 [main] DEBUG topic5.Main - Payment 1: amount=46.725, date=2024/09/05 13:26 
+
+2024-26-05 13:26:35.802 [main] INFO  topic5.Main - Payment successful
+2024-26-05 13:26:35.803 [main] DEBUG topic5.Main - Payment 2: amount=31.5, date=2024/09/05 13:26 
+
+2024-26-05 13:26:35.803 [main] INFO  topic5.Main - Closing logger
+2024-27-05 13:27:01.148 [main] INFO  topic5.Main - Starting logger
+2024-27-05 13:27:01.166 [main] INFO  topic5.Main - Sorted product vector on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-27-05 13:27:01.168 [main] INFO  topic5.Main - Sorted product priority queue on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN]
+2024-27-05 13:27:01.169 [main] INFO  topic5.Main - Customer cart: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-27-05 13:27:01.173 [main] INFO  topic5.Main - Payment successful
+2024-27-05 13:27:01.175 [main] DEBUG topic5.Main - Payment 1: amount=46.725, date=2024/09/05 13:27 
+
+2024-27-05 13:27:01.176 [main] INFO  topic5.Main - Payment successful
+2024-27-05 13:27:01.176 [main] DEBUG topic5.Main - Payment 2: amount=31.5, date=2024/09/05 13:27 
+
+2024-27-05 13:27:01.176 [main] INFO  topic5.Main - Closing logger
+2024-08-05 17:08:56.785 [main] INFO  topic5.Main - Starting logger
+2024-08-05 17:08:56.813 [main] INFO  topic5.Main - Sorted product vector on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-08-05 17:08:56.814 [main] INFO  topic5.Main - Sorted product priority queue on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN]
+2024-08-05 17:08:56.815 [main] INFO  topic5.Main - Customer cart: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-08-05 17:08:56.820 [main] INFO  topic5.Main - Payment successful
+2024-08-05 17:08:56.824 [main] DEBUG topic5.Main - Payment 1: amount=46.725, date=2024/09/05 17:08 
+
+2024-08-05 17:08:56.824 [main] INFO  topic5.Main - Payment successful
+2024-08-05 17:08:56.824 [main] DEBUG topic5.Main - Payment 2: amount=31.5, date=2024/09/05 17:08 
+
+2024-08-05 17:08:56.825 [main] INFO  topic5.Main - Closing logger
+2024-09-05 17:09:02.737 [main] INFO  topic5.Main - Starting logger
+2024-09-05 17:09:02.764 [main] INFO  topic5.Main - Sorted product vector on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-09-05 17:09:02.766 [main] INFO  topic5.Main - Sorted product priority queue on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN]
+2024-09-05 17:09:02.767 [main] INFO  topic5.Main - Customer cart: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-09-05 17:09:02.772 [main] INFO  topic5.Main - Payment successful
+2024-09-05 17:09:02.775 [main] DEBUG topic5.Main - Payment 1: amount=46.725, date=2024/09/05 17:09 
+
+2024-09-05 17:09:02.776 [main] INFO  topic5.Main - Payment successful
+2024-09-05 17:09:02.776 [main] DEBUG topic5.Main - Payment 2: amount=31.5, date=2024/09/05 17:09 
+
+2024-09-05 17:09:02.776 [main] INFO  topic5.Main - Closing logger
+2024-20-06 09:20:23.311 [main] INFO  topic5.Main - Starting logger
+2024-20-06 09:20:23.342 [main] INFO  topic5.Main - Sorted product vector on price: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD]
+2024-20-06 09:20:23.344 [main] INFO  topic5.Main - Sorted product priority queue on condition: [Shirt: id=1, name='T-Shirt, price=20.0, size='L, condition='NEW, Shoe: id=5, name='Sneakers, price=50.0, size=13, condition=GOOD, Shirt: id=3, name='Sweatshirt, price=25.0, size='XL, condition='EXCELLENT, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN, Pants: id=2, name='Cargo Pants, price=14.5, size='WORN]
+2024-20-06 09:20:23.345 [main] INFO  topic5.Main - Customer cart: [Pants: id=2, name='Cargo Pants, price=14.5, size='WORN, Accessory: id=4, name='Necklace, price=30.0, condition=WELL_WORN]
+2024-20-06 09:20:23.350 [main] INFO  topic5.Main - Payment successful
+2024-20-06 09:20:23.353 [main] DEBUG topic5.Main - Payment 1: amount=46.725, date=2024/09/06 09:20 
+
+2024-20-06 09:20:23.354 [main] INFO  topic5.Main - Payment successful
+2024-20-06 09:20:23.354 [main] DEBUG topic5.Main - Payment 2: amount=31.5, date=2024/09/06 09:20 
+
+2024-20-06 09:20:23.354 [main] INFO  topic5.Main - Closing logger

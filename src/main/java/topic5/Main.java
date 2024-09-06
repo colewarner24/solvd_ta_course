@@ -63,7 +63,7 @@ public class Main {
             }
             LOGGER.debug(payment);
 
-            System.out.println(inventory.getProductMap());
+            System.out.println(inventory.getProducts());
             inventory.addProduct(product4, admin);
             customer.addToCart(product4);
 

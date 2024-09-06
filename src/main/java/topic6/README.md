@@ -1,3 +1,13 @@
+# Topic 6 notes
+
+[pom.xml file](https://github.com/colewarner24/solvd_ta_course/blob/main/pom.xml)
+
+[jar file](https://github.com/colewarner24/solvd_ta_course/blob/main/target/solvd_ta_course-1.0-SNAPSHOT-jar-with-dependencies.jar)
+
+plugins
+- check style, generates a report of code stylings
+- maven assembly plugin, combines project output into a single distributable archive that also contains dependencies, modules, site documentation, and other files. 
+
 # 1. What is M2_HOME? How to setup Maven?
 M2_HOME is the environment variable that points to the location where Maven is installed.
 
@@ -35,15 +45,19 @@ deploy - done in the build environment, copies the final package to the remote r
 # 6. What do you know about pom.xml file structure?
 
 The pom.xml file is layed out in the following structure:
-Project - The root element of the POM file that has information about the current project.
-Dependencies - The dependencies element contains a list of dependencies that the project needs to build, test, and run.
+Project - The POM file's root element contains information about the current project.
+
+Dependencies - The dependencies element contains a list of dependencies the project needs to build, test, and run.
+
 Build - The build element contains the configuration data for the build process.
+
 Plugins - The plugins element contains a list of plugins that are used to build the project.
 # 7. What do you know about local/remote repositories?
 The local repository is a directory on the developer's machine where Maven stores all the project dependencies.
-The remote repository is a directory on a remote server such as maven central to fetch dependencies to local.
+
+The remote repository is a directory on a remote server such as Maven Central to fetch dependencies to local.
 # 8. What is target directory?
-The target directory is the directory where Maven stores the compiled classes and the jar file and any other build output.
+The target directory is where Maven stores the compiled classes, the jar file, and any other build output.
 # 9. How to work with maven plugin?
 To work with a Maven plugin, one must add the plugin to the pom.xml file and configure it with the necessary parameters.
 # 10. What Maven flags do you know?

@@ -32,27 +32,21 @@ public class Payment implements Identifiable, Processable {
         }
         Shipping shipping = new Shipping(customer.getAddress(), customer.getAddress());
 
-        double total = cart.getTotalPrice() + shipping.getShippingCost(cart.getTotalPrice());
-        if (!processPayment(total)) {
-            return false;
-        }
-        if (!shipping.ship(customer)) {
-            return false;
-        }
+        shipping.ship(customer);
+
         for (Product product : cart.getProducts().values()) {
             inventory.removeProduct(product);
         }
         customer.clearCart();
-        this.amount = total;
+        this.amount = getTotal(cart, shipping);
         this.status = Status.PAID;
 
         return true;
     }
 
-    public boolean processPayment(double total) {
+    public void processPayment(double total) {
         // Send payment data to a payment gateway
         System.out.println("Processing payment of " + total + " on " + date);
-        return true;
     }
 
     public boolean isPaid(){
@@ -61,6 +55,10 @@ public class Payment implements Identifiable, Processable {
 
     public int getId() {
         return id;
+    }
+
+    public double getTotal(Cart cart, Shipping shipping){
+        return cart.getTotalPrice() + shipping.getShippingCost(cart.getTotalPrice());
     }
 
     @Override

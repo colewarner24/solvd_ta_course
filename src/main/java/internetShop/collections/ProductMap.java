@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public abstract class ProductMap extends HashMap<Integer, Product> {
-    protected HashMap<Integer, Product> products;
+    private HashMap<Integer, Product> products;
 
     public ProductMap() {
         products = new HashMap<>();

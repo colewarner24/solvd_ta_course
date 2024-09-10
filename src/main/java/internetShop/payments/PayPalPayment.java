@@ -12,12 +12,15 @@ public class PayPalPayment extends Payment {
         return payPalId;
     }
 
+    public void setPayPalId(String payPalId) {
+        this.payPalId = payPalId;
+    }
+
     @Override
-    public boolean processPayment(double total) {
+    public void processPayment(double total) {
         // Send payment data to paypal
         System.out.println("Redirecting to PayPal");
         System.out.println("Processing payment of " + total + " on " + this.date + " with PayPal");
         this.payPalId = "PAYPAL-1234";
-        return true;
     }
 }

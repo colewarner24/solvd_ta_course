@@ -2,5 +2,5 @@ package internetShop.payments;
 
 public interface Processable {
 
-    boolean processPayment(double amount);
+    void processPayment(double amount);
 }

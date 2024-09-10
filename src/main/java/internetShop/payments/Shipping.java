@@ -3,30 +3,30 @@ package internetShop.payments;
 import internetShop.collections.Cart;
 import internetShop.products.Product;
 import internetShop.users.Customer;
+import internetShop.exceptions.EmptyCartException;
 
 public class Shipping {
 
     private String name;
-    private String address;
+    private String shippingAddress;
     private static final double SHIPPING_TAX = 0.05;
 
-    public Shipping(String name, String address) {
+    public Shipping(String name, String shippingAddress) {
         this.name = name;
-        this.address = address;
+        this.shippingAddress = shippingAddress;
     }
 
     public double getShippingCost(double total) {
         return total * SHIPPING_TAX;
     }
 
-    public boolean ship(Customer customer) {
+    public void ship(Customer customer) throws EmptyCartException {
         Cart cart = customer.getCart();
         if (cart.isEmpty()) {
-            return false;
+            throw new EmptyCartException("Cart is empty");
         }
         for (Product product : cart.getProducts().values()) {
             System.out.println("Shipping " + product.getName() + " to " + customer.getAddress());
         }
-        return true;
     }
 }

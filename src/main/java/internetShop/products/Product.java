@@ -2,12 +2,22 @@ package internetShop.products;
 
 import internetShop.Identifiable;
 import internetShop.exceptions.InvalidProductException;
+import internetShop.utility.IDManager;
 
 public abstract class Product implements Identifiable, Priceable, Conditionable {
     private int id;
     private String name;
     private double price;
     private Condition condition;
+    private static IDManager idManager = new IDManager();
+
+    public Product(String name, double price, String condition) throws InvalidProductException {
+        this(idManager.assignId(), name, price, Condition.valueOfIgnoreCase(condition));  // Call the other constructor with assigned ID
+    }
+
+    public Product(String name, double price, Condition condition) throws InvalidProductException {
+        this(idManager.assignId(), name, price, condition);  // Call the other constructor with assigned ID
+    }
 
     public Product(int id, String name, double price, Condition condition) throws InvalidProductException {
 

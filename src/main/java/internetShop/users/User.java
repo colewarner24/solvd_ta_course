@@ -2,13 +2,21 @@ package internetShop.users;
 
 import internetShop.Identifiable;
 import internetShop.exceptions.InvalidUserException;
+import internetShop.utility.IDManager;
+
+import java.util.HashSet;
+import java.util.Set;
 
 public class User implements Identifiable {
 
     private int id;
     private String name;
     private String email;
+    private static IDManager idManager = new IDManager();
 
+    public User(String name, String email) throws InvalidUserException {
+        this(idManager.assignId(), name, email);  // Use assignId() to generate an ID
+    }
 
     public User(int id, String name, String email) throws InvalidUserException {
         if (id < 0) {

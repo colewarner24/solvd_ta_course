@@ -1,8 +1,14 @@
 package internetShop.payments;
 
+import internetShop.utility.IDManager;
+
 public class PayPalPayment extends Payment {
 
     private String payPalId;
+
+    public PayPalPayment() {
+        super();
+    }
 
     public PayPalPayment(int id) {
         super(id);

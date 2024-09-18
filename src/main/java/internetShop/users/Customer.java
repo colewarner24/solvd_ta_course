@@ -9,6 +9,15 @@ public class Customer extends User {
     private Cart cart;
     private String address;
 
+    public Customer(String name, String email, String address) throws InvalidUserException {
+        super(name, email);
+        if (address == null) {
+            throw new IllegalArgumentException("Invalid address");
+        }
+        this.cart = new Cart();
+        this.address = address;
+    }
+
     public Customer(int id, String name, String email, String address) throws InvalidUserException {
         super(id, name, email);
         if (address == null) {

@@ -18,6 +18,13 @@ public class Cart extends ProductMap {
         getProducts().put(product.getId(), product);
     }
 
+    public void addProduct(int id, Inventory inventory) {
+        Product product = inventory.getProduct(id);
+        if (product != null) {
+            getProducts().put(product.getId(), product);
+        }
+    }
+
     public void removeProduct(Product product) {
         getProducts().remove(product.getId());
     }

@@ -24,7 +24,7 @@ public abstract class ProductMap extends HashMap<Integer, Product> {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         for (Product product : products.values()) {
-            sb.append(product.toString());
+            sb.append(product.toString()).append("\n");
         }
         return sb.toString();
     }

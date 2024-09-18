@@ -2,6 +2,7 @@ package internetShop.users;
 
 import internetShop.exceptions.InvalidCredentialException;
 import internetShop.exceptions.InvalidUserException;
+import internetShop.utility.IDManager;
 
 import java.util.Base64;
 
@@ -13,6 +14,14 @@ public final class Admin extends User implements AutoCloseable {
     static {
         String passkey = "admin";
         encodedKey = Base64.getEncoder().encodeToString(passkey.getBytes());
+    }
+
+    public Admin(String name, String email, String credentials) throws InvalidUserException {
+        super(name, email);
+        if (credentials == null || credentials.isEmpty()) {
+            throw new InvalidUserException("Invalid admin credentials");
+        }
+        this.credentials = credentials;
     }
 
     public Admin(int id, String name, String email, String credentials) throws InvalidUserException {

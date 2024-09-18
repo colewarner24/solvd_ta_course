@@ -6,6 +6,14 @@ public class Shoe extends Product implements Conditionable, Sizable {
 
     private Integer size;
 
+    public Shoe(String name, double price, Integer size, String condition) throws InvalidProductException {
+        super(name, price, condition);
+        if (size == null) {
+            throw new InvalidProductException("Invalid product size");
+        }
+        this.size = size;
+    }
+
     public Shoe(int id, String name, double price, Integer size, Condition condition) throws InvalidProductException {
         super(id, name, price, condition);
         if (size == null) {

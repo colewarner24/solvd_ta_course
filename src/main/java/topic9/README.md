@@ -1,6 +1,6 @@
 # topic 9
-- collections located in inventory and payments
-- reflection used in admin class
+- collections located in [inventory](https://github.com/colewarner24/solvd_ta_course/blob/main/src/main/java/internetShop/collections/Inventory.java) and [payments](https://github.com/colewarner24/solvd_ta_course/blob/main/src/main/java/internetShop/collections/Payments.java)
+- reflection used in [admin](https://github.com/colewarner24/solvd_ta_course/blob/main/src/main/java/internetShop/users/Admin.java) class
 # 1. What is Stream?
 A stream is an abstraction of collections that allows the processing of elements.
 # 2. What stream operations do you know? Why do we need them? 

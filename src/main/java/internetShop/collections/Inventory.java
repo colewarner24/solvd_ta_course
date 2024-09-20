@@ -5,15 +5,11 @@ import internetShop.exceptions.ProductInInventoryException;
 import internetShop.products.Conditionable;
 import internetShop.products.Priceable;
 import internetShop.products.Product;
-import internetShop.products.Priceable;
 import internetShop.users.Admin;
 
 import java.util.*;
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.function.Predicate;
-import java.util.function.UnaryOperator;
-import java.util.stream.Collectors;
+import java.util.function.*;
+import java.util.stream.Stream;
 
 
 public class Inventory extends ProductMap {
@@ -31,35 +27,35 @@ public class Inventory extends ProductMap {
         return getProducts().get(id);
     }
 
-    public List<Product> filterProductsByPriceMax(double maxPrice) {
+    public Stream<Product> getProductStream(){
+        return getProducts().values().stream();
+    }
+
+    public static Stream<Product> sortProductsByPrice(Stream<Product> stream){
+        return stream.sorted(Comparator.comparing(Product::getPrice));
+    }
+
+    public static Stream<Product> sortProductsByCondition(Stream<Product> stream){
+        return stream.sorted(Comparator.comparing(Product::getCondition));
+
+    }
+
+    public static Stream<Product> filterProductsByPriceMax(Stream<Product> stream, double maxPrice) {
         Predicate<Product> byPrice = product -> product.getPrice() < maxPrice;
-        return getProducts().values().stream()
-                .filter(byPrice)
-                .collect(Collectors.toList());
+        return stream.filter(byPrice);
     }
 
-    public List<String> getProductNames() {
+    public static void printProductNames(Stream<Product> stream) {
         Function<Product, String> toName = Product::getName;
-        return getProducts().values().stream()
-                .map(toName)
-                .collect(Collectors.toList());
+        List<String> productList = stream.map(toName).toList();
+        for (String productString : productList){
+            System.out.println(productString);
+        }
     }
 
-    public List<String> getProductNames(double MaxPrice) {
-        Function<Product, String> toName = Product::getName;
-        return this.filterProductsByPriceMax(MaxPrice).stream()
-                .map(toName)
-                .collect(Collectors.toList());
-    }
-
-    public void printAllProductDetails(double maxPrice) {
+    public static void printAllProductDetails(Stream<Product> stream) {
         Consumer<Product> printDetails = product -> System.out.println(product);
-        this.filterProductsByPriceMax(maxPrice).forEach(printDetails);
-    }
-
-    public void printAllProductDetails() {
-        Consumer<Product> printDetails = product -> System.out.println(product);
-        getProducts().values().forEach(printDetails);
+        stream.forEach(printDetails);
     }
 
     public void applyDiscount(double discountPercentage) {

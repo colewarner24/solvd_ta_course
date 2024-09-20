@@ -4,8 +4,9 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Arrays;
 import java.util.InputMismatchException;
-import java.util.List;
 import java.util.Scanner;
+import java.util.stream.Stream;
+
 import org.apache.commons.io.FileUtils;
 
 import internetShop.collections.Cart;
@@ -16,7 +17,8 @@ import internetShop.payments.Payment;
 import internetShop.products.*;
 import internetShop.users.Admin;
 import internetShop.users.Customer;
-import internetShop.users.User;
+
+import static internetShop.collections.Inventory.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -42,7 +44,7 @@ public class Main {
         System.out.println("Welcome to Cole's Internet Shop!");
         while (!exit) {
             System.out.println("Please login");
-            System.out.println("Are you a customer or an admin?\n");
+            System.out.println("Are you a customer or an admin?");
             String action = scanner.nextLine();
 
             try {
@@ -143,7 +145,8 @@ public class Main {
             System.out.println("3. View inventory");
             System.out.println("4. View payments");
             System.out.print("5. Add Discount");
-            System.out.println("6. Logout");
+            System.out.println("6. Reflection Update");
+            System.out.println("7. Logout");
             int choice = scanner.nextInt();
             switch (choice) {
                 case 1:
@@ -171,6 +174,9 @@ public class Main {
                     System.out.println("Discount applied");
                     break;
                 case 6:
+                    admin.reflectPaymentClass();
+                    break;
+                case 7:
                     exit = true;
                     break;
                 default:
@@ -227,55 +233,45 @@ public class Main {
     }
 
     public static void inventoryMenu(Scanner scanner, Inventory inventory) {
-        inventory.printAllProductDetails();
+        System.out.println(inventory);
         System.out.println("Additional options? (y/n)");
+        scanner.nextLine();
         String choice = scanner.nextLine();
         if (choice.equals("n")) {
             return;
         }
-        System.out.println("Max Price: (int or none)");
-        Double maxPrice = null;
+        Stream<Product> productStream = inventory.getProductStream();
+        System.out.println("Max Price: (double or none)");
         try{
-            maxPrice = scanner.nextDouble();
-            System.out.println("verbose? (y/n)");
-            String verbose = scanner.nextLine();
-            if (verbose.equals("y")) {
-                inventory.printAllProductDetails(maxPrice);
-            }
-            else {
-                for (String name : inventory.getProductNames(maxPrice)){
-                    System.out.println(name);
-                }
-            }
+            double maxPrice = scanner.nextDouble();
+            productStream = filterProductsByPriceMax(productStream, maxPrice);
         }
-        catch (InputMismatchException ignored) {
-            System.out.println("verbose? (y/n)");
-            String verbose = scanner.nextLine();
-            if (verbose.equals("y")) {
-                inventory.printAllProductDetails();
-            }
-            else {
-                for (String name : inventory.getProductNames()){
-                    System.out.println(name);
-                }
-            }
+        catch (InputMismatchException ignored){ }
+
+        System.out.println("Sort by Price (p default) or Condition (c)");
+        scanner.nextLine();
+        String sort = scanner.nextLine();
+        if (sort.equals("c")){
+            productStream = sortProductsByCondition(productStream);
+        }
+        else{
+            productStream = sortProductsByPrice(productStream);
+        }
+
+        System.out.println("verbose? (y/n)");
+        String verbose = scanner.nextLine();
+        System.out.println(verbose);
+        if (verbose.equals("y")) {
+            printAllProductDetails(productStream);
+        }
+        else {
+            printProductNames(productStream);
         }
     }
 
     public static void paymentMenu(Scanner scanner, Payments payments) {
         payments.printAllPaymentDetails();
-        System.out.println("Additional options? (y/n)");
-        String choice = scanner.nextLine();
-        if (choice.equals("n")) {
-            return;
-        }
-        System.out.println("Filter by paid? (y/n)");
-        String paid = scanner.nextLine();
-        if (paid.equals("y")) {
-            for (Payment payment : payments.filterPayments(Payment::isPaid)) {
-                System.out.println(payment);
-            }
-        }
+        System.out.println("Total Revenue Earned: " + payments.getTotalAmount());
     }
 }
 

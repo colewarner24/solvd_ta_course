@@ -2,6 +2,7 @@ admin
 cole
 email
 admin
+6
 1
 Shirt
 shirt#1
@@ -27,8 +28,11 @@ shirt#2
 S
 worn
 3
+y
+100.00
+p
+y
+7
 exit
-exit
-
 
 

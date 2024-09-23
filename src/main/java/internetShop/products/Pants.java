@@ -1,6 +1,10 @@
 package internetShop.products;
 
+import internetShop.enums.Condition;
+import internetShop.enums.Size;
 import internetShop.exceptions.InvalidProductException;
+import internetShop.interfaces.Conditionable;
+import internetShop.interfaces.Sizable;
 
 public class Pants extends Product implements Conditionable, Sizable {
 

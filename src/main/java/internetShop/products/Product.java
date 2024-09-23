@@ -1,7 +1,10 @@
 package internetShop.products;
 
-import internetShop.Identifiable;
+import internetShop.interfaces.Identifiable;
+import internetShop.enums.Condition;
 import internetShop.exceptions.InvalidProductException;
+import internetShop.interfaces.Conditionable;
+import internetShop.interfaces.Priceable;
 import internetShop.utility.IDManager;
 
 public abstract class Product implements Identifiable, Priceable, Conditionable {

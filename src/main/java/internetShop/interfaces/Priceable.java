@@ -1,4 +1,4 @@
-package internetShop.products;
+package internetShop.interfaces;
 
 public interface Priceable {
     double getPrice();

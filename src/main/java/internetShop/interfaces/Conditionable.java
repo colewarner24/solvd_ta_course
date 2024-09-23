@@ -1,4 +1,6 @@
-package internetShop.products;
+package internetShop.interfaces;
+
+import internetShop.enums.Condition;
 
 public interface Conditionable {
     Condition getCondition();

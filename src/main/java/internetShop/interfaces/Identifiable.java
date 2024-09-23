@@ -1,4 +1,4 @@
-package internetShop;
+package internetShop.interfaces;
 
 public interface Identifiable {
 

@@ -1,11 +1,13 @@
 package internetShop.payments;
 import internetShop.collections.Inventory;
+import internetShop.enums.Status;
 import internetShop.exceptions.EmptyCartException;
 import internetShop.collections.Cart;
 import internetShop.exceptions.ProductInInventoryException;
+import internetShop.interfaces.Processable;
 import internetShop.products.Product;
 import internetShop.users.Customer;
-import internetShop.Identifiable;
+import internetShop.interfaces.Identifiable;
 import internetShop.utility.IDManager;
 
 import java.text.SimpleDateFormat;

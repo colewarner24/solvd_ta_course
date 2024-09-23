@@ -1,4 +1,4 @@
-package internetShop.payments;
+package internetShop.enums;
 
 import java.io.Serializable;
 

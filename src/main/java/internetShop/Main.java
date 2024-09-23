@@ -7,6 +7,9 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.stream.Stream;
 
+import internetShop.enums.Condition;
+import internetShop.enums.Size;
+import internetShop.enums.Type;
 import org.apache.commons.io.FileUtils;
 
 import internetShop.collections.Cart;

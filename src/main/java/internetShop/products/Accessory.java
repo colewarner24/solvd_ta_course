@@ -1,5 +1,7 @@
 package internetShop.products;
 
+import internetShop.enums.AccessoryType;
+import internetShop.enums.Condition;
 import internetShop.exceptions.InvalidProductException;
 
 public class Accessory extends Product {

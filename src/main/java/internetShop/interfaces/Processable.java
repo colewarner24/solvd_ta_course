@@ -1,4 +1,4 @@
-package internetShop.payments;
+package internetShop.interfaces;
 
 public interface Processable {
 

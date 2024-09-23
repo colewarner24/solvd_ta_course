@@ -1,4 +1,4 @@
-package internetShop.collections;
+package internetShop.interfaces;
 
 @FunctionalInterface
 public interface MyConsumer<T> {

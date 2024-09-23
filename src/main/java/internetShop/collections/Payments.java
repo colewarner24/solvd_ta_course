@@ -1,6 +1,9 @@
 package internetShop.collections;
 
 import internetShop.exceptions.PaymentNotPaidException;
+import internetShop.interfaces.MyConsumer;
+import internetShop.interfaces.MyGeneric;
+import internetShop.interfaces.MyPredicate;
 import internetShop.payments.Payment;
 
 import java.util.LinkedList;

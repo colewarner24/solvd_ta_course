@@ -1,4 +1,4 @@
-package internetShop.products;
+package internetShop.enums;
 
 import java.io.Serializable;
 

@@ -1,11 +1,8 @@
 package internetShop.users;
 
-import internetShop.Identifiable;
+import internetShop.interfaces.Identifiable;
 import internetShop.exceptions.InvalidUserException;
 import internetShop.utility.IDManager;
-
-import java.util.HashSet;
-import java.util.Set;
 
 public class User implements Identifiable {
 

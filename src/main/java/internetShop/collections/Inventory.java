@@ -2,8 +2,8 @@ package internetShop.collections;
 
 import internetShop.exceptions.InvalidCredentialException;
 import internetShop.exceptions.ProductInInventoryException;
-import internetShop.products.Conditionable;
-import internetShop.products.Priceable;
+import internetShop.interfaces.Conditionable;
+import internetShop.interfaces.Priceable;
 import internetShop.products.Product;
 import internetShop.users.Admin;
 
